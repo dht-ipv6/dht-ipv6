@@ -9,7 +9,7 @@ function Node () {
 Node.prototype.generateRandomID = function () {
   // or use the crypto module
   let id = crypto.randomBytes(this.idLength)
-  let idString = Buffer.from(id)
+  let idString = new Buffer(id)
   this.nodeID = idString.toString('hex')
   return this.nodeID
 }
