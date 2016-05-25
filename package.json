@@ -1,0 +1,21 @@
+{
+  "name": "dht-ipv6",
+  "version": "0.0.1",
+  "description": "A BitTorrent DHT implementation supporting IPv6",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+  "keywords": [
+    "p2p",
+    "bittorrent",
+    "dht"
+  ],
+  "author": "Alan Han, Curtis Jah, Hamza Surti, Jared Fowler (@jafow)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^7.1.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  }
+}
