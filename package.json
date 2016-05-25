@@ -11,9 +11,13 @@
     "bittorrent",
     "dht"
   ],
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "author": "Alan Han, Curtis Jah, Hamza Surti, Jared Fowler (@jafow)",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^6.0.4",
     "standard": "^7.1.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1"
