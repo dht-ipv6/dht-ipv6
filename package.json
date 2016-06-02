@@ -24,6 +24,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
+    "k-bucket": "^3.0.2",
     "k-rpc-socket": "^1.5.2",
     "krpc": "^0.4.0"
   }
